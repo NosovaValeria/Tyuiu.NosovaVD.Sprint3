@@ -13,7 +13,7 @@ namespace Tyuiu.NosovaVD.Sprint3.Task1.V16.Test
             int startValue = 1;
             int stopValue = 15;
             double res = ds.GetMultiplySeries(startValue, stopValue);
-            Assert.AreEqual(1.948, res);
+            Assert.AreEqual(15.948, res);
         }
     }
 }

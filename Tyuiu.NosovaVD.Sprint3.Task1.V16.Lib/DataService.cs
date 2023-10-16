@@ -14,10 +14,9 @@ namespace Tyuiu.NosovaVD.Sprint3.Task1.V16.Lib
             double res = 0;
             while (startValue <= stopValue)
             {
-                res += (Math.Pow(x, 2) * Math.Sin(startValue));
+                res += (Math.Pow(x, 2) * Math.Sin(startValue)) + 1;
                 startValue++;
             }
-            res += 1;
             return Math.Round(res, 3);
         }
     }
