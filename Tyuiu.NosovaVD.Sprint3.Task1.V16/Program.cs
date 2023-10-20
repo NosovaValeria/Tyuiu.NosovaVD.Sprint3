@@ -35,7 +35,7 @@ namespace Tyuiu.NosovaVD.Sprint3.Task1.V16
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(ds.GetMultiplySeries(startValue, stopValue));
+            Console.WriteLine(ds.GetSumSeries(value, startValue, stopValue));
             Console.ReadKey();
         }
     }
