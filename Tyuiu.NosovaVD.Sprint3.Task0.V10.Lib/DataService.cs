@@ -15,7 +15,7 @@ namespace Tyuiu.NosovaVD.Sprint3.Task0.V10.Lib
             {
                 res *= Math.Pow(300 / (i + Math.Pow(value, i)), i);
             }
-            return Math.Round(res, 3);
+            return Math.Round(res, 3); 
         }
 
     }
