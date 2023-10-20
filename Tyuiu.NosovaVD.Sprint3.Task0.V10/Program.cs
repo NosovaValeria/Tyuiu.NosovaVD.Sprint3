@@ -26,7 +26,7 @@ namespace Tyuiu.NosovaVD.Sprint3.Task0.V10
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            double value = 5;
+            int value = 5;
             int startValue = 1;
             int stopValue = 5;
             Console.WriteLine("Значение X: " + value);
@@ -35,7 +35,7 @@ namespace Tyuiu.NosovaVD.Sprint3.Task0.V10
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(ds.GetSumSeries(value,startValue,stopValue));
+            Console.WriteLine(ds.GetMultiplySeries(value,startValue,stopValue));
             Console.ReadKey();
         }
     }
