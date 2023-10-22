@@ -13,7 +13,7 @@ namespace Tyuiu.NosovaVD.Sprint3.Task2.V21.Lib
             double res = 0;
             do
             {
-                res += Math.Pow((1 / (Math.Sin(startValue) + 2 * Math.Pow(value, startValue))), startValue);
+                res += Math.Pow((1.0 / (Math.Sin(startValue) + 2.0 * Math.Pow(value, startValue))), startValue);
                 startValue++;
             }
             while (startValue <= stopValue);
