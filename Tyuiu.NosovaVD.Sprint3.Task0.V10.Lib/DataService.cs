@@ -13,7 +13,7 @@ namespace Tyuiu.NosovaVD.Sprint3.Task0.V10.Lib
             double res = 1;
             for (int i = startValue; i <= stopValue; i++)
             {
-                res *= Math.Pow(300 / (i + Math.Pow(value, i)), i);
+                res *= Math.Pow(300.0 / (i + Math.Pow(value, i)), i);
             }
             return Math.Round(res, 3); 
         }
