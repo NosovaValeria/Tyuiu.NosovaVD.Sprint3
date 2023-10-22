@@ -17,4 +17,4 @@ namespace Tyuiu.NosovaVD.Sprint3.Task2.V21.Test
             Assert.AreEqual(0.298, res);
         }
     }
-}
+} 

@@ -17,7 +17,7 @@ namespace Tyuiu.NosovaVD.Sprint3.Task2.V21.Lib
                 startValue++;
             }
             while (startValue <= stopValue);
-            return Math.Round(res, 3);
+            return Math.Round(res, 3); 
         }
     }
 }

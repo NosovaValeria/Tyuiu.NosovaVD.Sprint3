@@ -28,7 +28,7 @@ namespace Tyuiu.NosovaVD.Sprint3.Task2.V21
             Console.WriteLine("***************************************************************************");
             double value = 1.5;
             int startValue = 1;
-            int stopValue = 10;
+            int stopValue = 10; 
             Console.WriteLine("Значение X: " + value);
             Console.WriteLine("Стартовое значение цикла: " + startValue);
             Console.WriteLine("Конечное значение цикла: " + stopValue);
